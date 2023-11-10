@@ -1,0 +1,23 @@
+
+.nav_bar{
+   background-color: black;
+   height: 80px;
+}
+
+.sidebar{
+    width: 150px;
+    height: 100%;
+    background-color: rgb(191, 52, 52);
+}
+
+.wrapper_up{
+    height: calc(100vh - 80px);
+    background-color: blueviolet;
+    display: flex;
+}
+
+.main_content{
+    width: calc(100vw - 150px);
+    height: 100%;
+    background-color: aquamarine;
+}
