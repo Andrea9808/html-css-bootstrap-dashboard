@@ -1,13 +1,16 @@
 
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .nav_bar{
    background-color: black;
    height: 80px;
 }
 
 .sidebar{
-    width: 150px;
-    height: 100%;
-    background-color: rgb(191, 52, 52);
+    background-color: rgb(8, 17, 70);
 }
 
 .wrapper_up{
@@ -17,7 +20,13 @@
 }
 
 .main_content{
-    width: calc(100vw - 150px);
+    flex-grow: 1;
     height: 100%;
     background-color: aquamarine;
+}
+
+/* SIDEBAR */
+
+.sidebar a{
+    color: white;
 }
