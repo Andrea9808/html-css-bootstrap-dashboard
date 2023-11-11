@@ -9,6 +9,10 @@
    height: 80px;
 }
 
+.nav_head a{
+    display: flex;
+}
+
 .sidebar{
     height: 100%;
     background-color: rgb(8, 17, 70);
@@ -71,4 +75,45 @@ nav form{
 
 .logosmall{
     width: 80px;
+}
+
+
+/* BREAD */
+
+.bread{
+    background-color: rgb(74, 74, 224);
+}
+
+.blaze{
+    background-color: #1e5eae;
+    font-size: 11px;
+    padding: 2px 8px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+
+.breadcrumb li{
+    color: white;
+}
+
+.breadcrumb a{
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb .fa-solid{
+    font-size: 12px;
+}
+
+.fa-plus{
+    border: 1px solid white;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* OFFCANVAS */
+
+.offcanvas_{
+    color: black;
 }

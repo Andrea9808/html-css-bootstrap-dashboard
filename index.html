@@ -28,26 +28,25 @@
               
             <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
                 <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                    <a class="nav-link d-none d-block d-sm-none d-md-none d-lg-block" aria-current="page" href="#"><i class="fa-solid fa-bars"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-none d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-circle-question"></i></a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link d-none d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bell"></i></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-none d-block d-sm-none d-md-none d-lg-block" aria-current="page" href="#"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-none d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-none d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 
               </div>
@@ -64,7 +63,7 @@
                     <div class="container-fluid h-100 d-flex flex-column justify-content-between">
 
                         <div class="box p-2">
-                            <ul class="nav nav-pills flex-column mt-2">
+                            <ul class="nav_head nav nav-pills flex-column align-items-center mt-2">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link"><i class="fa-solid fa-house"></i><span class="d-none d-sm-inline text-white ms-3">Home</span></a>
                                 </li>
@@ -85,6 +84,141 @@
             
                 <section class="main_content">
 
+
+                    <!-- SEZIONE BREADCRUMBS E DROPDOWN -->
+                    <div class="bread">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="vspace mt-3">
+                                        <div class="row">
+                                            <div class="col-5 d-none d-sm-block col-sm-12 col-md-4 col-lg-5">
+                                                <div class="box_bread">
+                                                    <span class="fs-2 text-white">Boolean</span>
+                                                    <span class=" text-white blaze">Piano blaze</span>
+                                                    <nav>
+                                                        <ol class="breadcrumb --bs-breadcrumb-divider: '>>' text-white d-flex align-items-center">
+                                                            <li class="blaze"><a href="#">3 app</a></li>
+                                                            <i class="fa-solid fa-angles-right"></i>
+                                                            <li><span class="blaze d-lg-none d-xl-none">+</span></i></li>
+                                                            <li class=" active blaze d-none d-sm-none d-md-none d-lg-block" aria-current="page">Boolean mobile apps</li>
+                                                            <li class="active blaze d-none d-sm-none d-md-none d-lg-block" aria-current="page">Boolean web app</li>
+                                                            <li class="active blaze d-none d-sm-none d-md-none d-lg-block" aria-current="page">Boolean blog app</li>
+                                                        </ol>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                                
+                                            <div class="col-12 d-none d-sm-block col-sm-12 col-md-4">
+                                                <div class="box_bread text-white">
+                                                    <span>Studenti online negli ultimi 30 minuti</span><br>
+                                                    <h2 class="mt-2">125</h2>
+                                                </div>
+                                            </div>
+                                                
+                                                 <!--OFFCANVAS  -->
+                                            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                                                <div class="box_bread text-white d-flex align-items-center">
+                                                    <span>Nuovo studente</span>
+                                                    <div class="offcanvas_ ">
+                                                            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                                                        <div class="container">
+                                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                                <div class="offcanvas-header">
+                                                                <h5 id="offcanvasRightLabel">Inserisici un nuovo studente</h5>
+                                                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="offcanvas-body">
+                                                                    <form action="#">
+
+                                                                        <div class="row">
+                                                                            <div class="col-6">
+                                                                                <label for="Nome">Nome</label>
+                                                                                <input class="form-control" type="text" placeholder="Inserisici il nome">
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                                <label for="Cognome">Cognome</label>
+                                                                                <input class="form-control" type="text" placeholder="Inserisici il cognome">
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-6 mt-3">
+                                                                                <label for="mail">Email</label>
+                                                                                <div class="input-group mb-3">
+                                                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                                                    <input type="text" class="form-control" placeholder="Inserisci mail" aria-label="mail" aria-describedby="basic-addon1">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-6 mt-3">
+                                                                                <label for="password">Password</label>
+                                                                                <input class="form-control" type="password" placeholder="Inserici password">
+                                                                            </div>
+                                                                        </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-12 mt-3">
+                                                                                    <label for="adress">Indirizzo</label>
+                                                                                    <input class="form-control" type="text" placeholder="Inserisci indirizzo">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-5 mt-3">
+                                                                                    <label for="mail">Città</label>
+                                                                                    <input type="text" class="form-control" placeholder="Inserisci ciità" aria-label="mail" aria-describedby="basic-addon1">
+                                                                                
+                                                                                </div>
+                                                                                <div class="col-4 mt-3">
+                                                                                    <label for="stato">Stato</label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>Scegli...</option>
+                                                                                        <option value="1">Italia</option>
+                                                                                        <option value="2">Francia</option>
+                                                                                        <option value="3">Germania</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                                <div class="col-3 mt-3">
+                                                                                    <label for="cap">CAP</label>
+                                                                                    <input class="form-control" type="text" placeholder="Inserici CAP">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-12 mt-3">
+                                                                                    <label for="formFileMultiple" class="form-label">Foto</label>
+                                                                                    <input class="form-control" type="file" id="formFileMultiple">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-12 mt-3">
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                                                        <label class="form-check-label" for="flexCheckChecked">
+                                                                                        Seleziona per proseguire
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <button type="button" class="btn btn-success mt-3">Salva</button>
+                                                                            <button type="button" class="btn btn-warning mt-3">Svuota</button>
+
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
             </section>
