@@ -4,6 +4,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* common style */
+.title_main{
+    background-color: #aba8a82e;
+}
+
 .nav_bar{
    background-color: black;
    height: 80px;
@@ -15,10 +20,8 @@
 
 .sidebar{
     height: 100%;
-    min-width: 100px;
     background-color: rgb(8, 17, 70);
     background-image: url(../img/sidebar-bg.png);
-    overflow: hidden;
 }
 
 .wrapper_up{
@@ -30,6 +33,7 @@
 .main_content{
     flex-grow: 1;
     height: 100%;
+    overflow: auto;
 }
 
 /* SIDEBAR */
@@ -122,7 +126,7 @@ nav form{
 /* TABLE */
 
 .table_class{
-    margin: 10px;
+    margin: 20px;
     border: 1px solid #dfd0d0;
     border-radius: 5px;
 }
@@ -170,5 +174,24 @@ td button{
     border-radius: 5px;
     padding: 2px 8px;
     color: white;
+}
+
+/* ACCORDION */
+
+.accordion_faq{
+    margin: 20px;
+    border: 1px solid #dfd0d0;
+    border-radius: 5px;
+}
+
+/* TODO */
+
+.box_todo{
+    border: 1px solid #dfd0d0;
+    margin: 20px;
+}
+
+.box_form{
+    border: 1px solid #dfd0d0;
 }
 
