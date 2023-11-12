@@ -15,20 +15,21 @@
 
 .sidebar{
     height: 100%;
+    min-width: 100px;
     background-color: rgb(8, 17, 70);
     background-image: url(../img/sidebar-bg.png);
+    overflow: hidden;
 }
 
 .wrapper_up{
     height: calc(100vh - 80px);
-    background-color: blueviolet;
     display: flex;
+    
 }
 
 .main_content{
     flex-grow: 1;
     height: 100%;
-    background-color: aquamarine;
 }
 
 /* SIDEBAR */
@@ -117,3 +118,57 @@ nav form{
 .offcanvas_{
     color: black;
 }
+
+/* TABLE */
+
+.table_class{
+    margin: 10px;
+    border: 1px solid #dfd0d0;
+    border-radius: 5px;
+}
+
+table img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+.fa-pencil,.fa-trash{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+td button{
+    width: 20px;
+}
+
+.done{
+    background-color: green;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: white;
+}
+
+.process{
+    background-color: rgb(221, 221, 24);
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: white;
+}
+
+.failed{
+    background-color: red;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: white;
+}
+
