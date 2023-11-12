@@ -4,22 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* common style */
 .title_main{
     background-color: #aba8a82e;
 }
 
-.nav_bar{
-   background-color: black;
-   height: 80px;
-}
-
-.nav_head a{
-    display: flex;
-}
 
 .sidebar{
-    height: 100%;
     background-color: rgb(8, 17, 70);
     background-image: url(../img/sidebar-bg.png);
 }
@@ -33,7 +25,8 @@
 .main_content{
     flex-grow: 1;
     height: 100%;
-    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 /* SIDEBAR */
@@ -186,12 +179,19 @@ td button{
 
 /* TODO */
 
-.box_todo{
+.box_todo_stats{
     border: 1px solid #dfd0d0;
     margin: 20px;
 }
 
 .box_form{
     border: 1px solid #dfd0d0;
+}
+
+
+/* STATS */
+
+.box_todo_stats img{
+    width: 100%;
 }
 
