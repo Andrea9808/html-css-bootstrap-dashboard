@@ -1,15 +1,12 @@
 
-
 *{
     font-family: 'Roboto', sans-serif;
 }
-
 
 /* common style */
 .title_main{
     background-color: #aba8a82e;
 }
-
 
 .sidebar{
     background-color: rgb(8, 17, 70);
@@ -17,7 +14,7 @@
 }
 
 .wrapper_up{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 56px);
     display: flex;
     
 }
@@ -25,11 +22,9 @@
 .main_content{
     flex-grow: 1;
     height: 100%;
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
 }
-
-/* SIDEBAR */
 
 .sidebar a{
     color: white;
@@ -45,11 +40,14 @@
 
 /* NAVBAR */
 
+.navbar_top{
+    height: 56px;
+}
+
 nav form{
     width: 100%;
     padding-left: 20px;
   }
-
 
 .lens{
     background-color: #0000001c;
@@ -75,9 +73,8 @@ nav form{
 }
 
 .logosmall{
-    width: 80px;
+    width: 56px;
 }
-
 
 /* BREAD */
 .button_{
@@ -155,34 +152,23 @@ td button{
     width: 20px;
 }
 
-.done{
+.button_table{
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: white;
+}
+
+.green{
     background-color: green;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 5px;
-    border-radius: 5px;
-    padding: 2px 8px;
-    color: white;
 }
-
-.process{
-    background-color: rgb(221, 221, 24);
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 5px;
-    border-radius: 5px;
-    padding: 2px 8px;
-    color: white;
-}
-
-.failed{
+.red{
     background-color: red;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 5px;
-    border-radius: 5px;
-    padding: 2px 8px;
-    color: white;
+}
+.yellow{
+    background-color: #edc703;
 }
 
 /* ACCORDION */
