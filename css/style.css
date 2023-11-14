@@ -26,6 +26,12 @@
     overflow-x: hidden;
 }
 
+/* SIDEBAR */
+
+.sidebar{
+    max-width: 235px;
+}
+
 .sidebar a{
     color: white;
 }
@@ -35,7 +41,7 @@
 }
 
 .sidebar a:hover{
-    background-color: gray;
+    background-color: #bcb9b975;
 }
 
 /* NAVBAR */
